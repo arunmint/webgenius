@@ -1,0 +1,44 @@
+#span_annotate_button {
+	position: fixed;
+	z-index: 1000;
+	background-color: #9dc209;
+	color: white;
+	height: 15px;
+	width: 30px;
+	text-align: center;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+#span_annotate_button:hover {
+	background-color: black;
+}
+
+#span_annotate_icon {
+	height: 19px;
+	width: 19px;
+}
+
+#span_annotation, #span_note {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #9dc209;
+	background-color: white;
+	color: black;
+	position: fixed;
+	width: 200px;
+	visibility: hidden;
+	opacity: 0.9;
+	padding: 5px;
+}
+
+#span_annotation_input {
+	width: 90%;
+	height: 50px;
+}
+
+.span_annotated_selection {
+	border-radius: 5px;
+	background-color: #c1cdc1;
+	cursor: pointer;
+}

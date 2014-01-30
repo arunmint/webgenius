@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spanner",
+  "description": "Annotate the web.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "span.png",
+    "default_popup": "span.html"
+  },
+  "permissions": [
+    "http://spanapi.herokuapp.com/"
+  ],
+  "content_scripts": [
+    {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "css": ["span.css"],
+      "js": ["span.js"]
+    }
+  ]
+}
