@@ -1,0 +1,7 @@
+Webgenius - annotate the web
+
+This Chrome extension allows you to annotate most pieces of text on the web, so that anyone with this extension who views the page will be able to see all annotations that have been added.  Simply highlight a piece of text, click "SPN", and add your annotation.
+
+NOTE - (relatively harmless) bugs to be fixed:
+1. Clicking cancel keeps the text highlighted until page reload, but does not actually create an annotation (don't worry)
+2. The content of annotations only show up on page reload
