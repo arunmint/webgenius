@@ -1,9 +1,5 @@
 var lastNode;
 
-var pageAnnotations = [];
-
-var bodyString;
-
 window.onload = function() {
 	callAPI("annotation", {"url": document.baseURI}, "get");
 
@@ -127,7 +123,6 @@ var clickAway = function(e) {
 }
 
 function getSelectionHtml() {
-	// I KNOW, HAVING THESE TWO FUNCTIONS IS INEFFICIENT.  FUCK THE SYSTEM.
     var html = "";
     if (typeof window.getSelection != "undefined") {
         var sel = window.getSelection();
